@@ -56,18 +56,21 @@ color:#30ae69
 }
 .p-item{
     box-shadow: 0 0 10px gray;
-    border-radius: 15px;
-    padding:50px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 .p-item img{
     display: block;
     margin: 0 auto;
-    padding-top: 20px;
+    width: 20vw;
+    height: 30vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .p-item h3{
     text-align: center;
-    margin: 30px 0;
+    margin: 10vh 0;
 }
 
 .p-item button.transf, .p2-item button.transf{
@@ -211,6 +214,7 @@ footer p a{
     .p-item{
         padding: 0;
     }
+    .p-item img{width: 80vw;}
     .logo img{
         width: 50vw;
     }
