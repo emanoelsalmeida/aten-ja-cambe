@@ -104,6 +104,8 @@ color:#30ae69
 
 }
 .p2-item img{
+    width: 17vw;
+    height: 30vh;
     display: block;
     margin: 0 auto;
     padding-top: 20px;
