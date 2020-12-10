@@ -3,6 +3,8 @@
     padding: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+body{font-size: 100%;}
 header{
     background-color:#30ae69 ;
     position: fixed;
@@ -17,14 +19,14 @@ header ul {
 }
 header ul li {
      display: inline-block;
-     margin:25px 15px 25px 10px;
+     margin:10px 15px 10px 15px;
      font-family: 'Montserrat', sans-serif;
      color: white;
  }
 header ul li a{
      text-decoration: none;
      color: white;
-     font-size: 1.5em;
+     font-size: 1em;
  }
 header ul li:first-child a,header ul li a:hover{
     color: white;
@@ -73,12 +75,18 @@ color:#30ae69
     margin: 10vh 0;
 }
 
-.p-item button.transf, .p2-item button.transf{
-    background-color: transparent;
-    color:#30ae69;
+.button-1{background-color:#30ae69;color:#30ae69;text-align: center;
+    font-size: 1em;cursor: pointer; text-transform: uppercase;
+    border: 1px solid #ffffff ;display: flex;
+    align-items: center;justify-content: center;padding: 1em .5em;margin: 1em;}
+ .button-1 a{ color:#ffffff;text-decoration: none;font-weight: 700;}
+ .button-1 a:hover{color: #ffffff;text-decoration: none;}
+
+ .p-item button.transf, .p2-item button.transf{
+    background-color: #30ae69;
+    color:#fff;
     text-align: center;
     border: 2px solid #30ae69 ;
-
     font-size: 1em;
     cursor: pointer;
     text-transform: uppercase;
@@ -87,6 +95,7 @@ color:#30ae69
     display: block;
     margin: 0 auto;
     margin-bottom: 20px;
+    padding: 1em 2em;
 
 }
 
@@ -125,9 +134,7 @@ color:#30ae69
     justify-content: center;
     grid-gap: 20PX;
 }
-.p3-item{
 
-}
 .p3-item img{
     display: block;
     margin: 0 auto;
@@ -137,6 +144,13 @@ color:#30ae69
     text-align: center;
     margin: 30px 0;
 }
+
+.p5-box{display: flex;justify-content: center;align-items: center;flex-direction: column;background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(/images/family-1.jpeg) ;background-size: cover;height: 80vh;}
+.p5-box h1{ color: #ffffff;font-size: 3em;font-weight: 800;}
+.button{background-color:#30ae69;color:#ffffff;text-align: center;width: 30vw;height: 10vh;
+    font-size: 1.2em;cursor: pointer; text-transform: uppercase;
+    border-radius: 8px ;font-weight: 700;display: flex;align-items: center;justify-content: center;margin: 3vh 0;}
+ .button a{ color: #ffffff;text-decoration: none;font-weight: 700;font-size: 1.2em;text-decoration: none;}
 
 .p4{
     background-color: #30ae69;
@@ -182,14 +196,22 @@ margin: 0 auto;
 
 footer p{
     text-align: center;
-    padding: 15px 0;
-   
+    padding: 1vh 0;
+   font-size: .8rem;
 }
 footer p a{
     color:#30ae69 ;
     text-decoration: none;
     text-align: center;
 }
+
+.esp{padding-top: 10vh;}
+.esp h1{margin: 5vh 0;text-align: center;font-size: 1.5rem;}
+.esp-box{display: flex;justify-content: center;align-items: center;}
+.esp-item{width: 20%;display: flex;justify-content: center;align-items: center;flex-direction: column;background-color:#30ae69;margin: 0 3vw;}
+.esp-item img{width: 10vw;border-radius: 50%;background-color: #ffffff;position: relative;top: -5vh;}
+.esp-item h3{color: #ffffff;font-weight: 700;text-transform: initial;font-size: 1rem;display: block;margin: 2vh auto;text-align: center;}
+.esp-item p{font-size: .8rem;color: #ffffff;}
 
 @media screen and (max-width:900px){
     .pag-slide{
@@ -213,10 +235,18 @@ footer p a{
     .p1-box, .p2-box, .p3-box, .p4-box{
         grid-template-columns: 80%;
     }
+
+    .p2-item img{width: 80vw;}
+    .p5-box h1{text-align: center;}
     .p-item{
         padding: 0;
     }
     .p-item img{width: 80vw;}
+
+    .esp-box{flex-direction: column;}
+    .esp-item{width: 80%;margin: 2vh 0;}
+    .esp-item img{top: 0;}
+
     .logo img{
         width: 50vw;
     }
