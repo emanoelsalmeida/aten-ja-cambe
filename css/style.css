@@ -109,9 +109,7 @@ color:#30ae69
     justify-content: center;
     grid-gap: 20PX;
 }
-.p2-item{
 
-}
 .p2-item img{
     width: 17vw;
     height: 30vh;
@@ -215,7 +213,7 @@ footer p a{
 
 @media screen and (max-width:900px){
     .pag-slide{
-        width: 100%;
+        width: 100vw;height: auto;
     }
     header{
         position: fixed;
@@ -230,7 +228,7 @@ footer p a{
     header ul li a{
         text-decoration: none;
         color: white;
-        font-size: 1em;
+        font-size: 1.5em;
     }
     .p1-box, .p2-box, .p3-box, .p4-box{
         grid-template-columns: 80%;
@@ -242,7 +240,8 @@ footer p a{
         padding: 0;
     }
     .p-item img{width: 80vw;}
-
+    .p-item h3{   margin: 1em 0;
+    }
     .esp-box{flex-direction: column;}
     .esp-item{width: 80%;margin: 2vh 0;}
     .esp-item img{top: 0;}
