@@ -8,20 +8,17 @@
     <meta name="description" content="Ortopedia e Traumatologia">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
+<!--
+        slidershow
+    -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+    
+
     <link rel="stylesheet" href="css/style.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,800&display=swap" rel="stylesheet">
-
-    <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
- <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    
+  
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
@@ -35,43 +32,23 @@
             </ul>        
     </header>
     <main>
-        <div class="pag-slide">
-            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                </ol>
+        <div class="pslide">
 
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner" role="listbox">
-                    <div class="item active">
-                    <img src="1.jpeg" alt="...">
-                    </div>
-                    <div class="item">
-                    <img src="2.jpeg" alt="...">
-                    </div>
-                    <div class="item">
-                    <img src="4.jpeg" alt="...">
-                    </div>
+            <div class="slider">
+                <div class="slideshow">
+                    <img src="1.jpeg" alt="">
                 </div>
-
-                <!-- Controls -->
-                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
-                </div>
-            
+                <div class="slideshow">
+                  <img src="2.jpeg" alt="">
+              </div> 
+              <div class="slideshow">
+                  <img src="3.jpeg" alt="">
+            </div>
+            </div>
         </div>
       <div id="servico" class="p1">
                 <h1>
-                    Serviços
+                    ESPECIALIDADES
                 </h1>
                 <div class="p1-box">
                     <div class="p-item">
@@ -79,219 +56,392 @@
                         <h3>
                             Cardiologia
                        </h3>
+                       <p>
+                        É o especialista responsável por tratar as doenças do coração, hipertensão
+                        arterial (pressão alta), arritmias cardíacas, doenças circulatórias cardíacas.
+                       </p>
                         <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="cardio.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item"> 
                         <img src="images/clinico geral.jpeg" alt="">
                         <h3>
                             Clínico Geral
                        </h3>
-                           <form action="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!"></form>
-
-                            <button class="transf"> Agendar Consulta</button>
-                        </form>
+                       <p>
+                        Especialista responsável por acompanhar e diagnosticar possíveis problemas
+de saúde em seus pacientes, como identificar sintomas, pedir e analisar
+exames, prescrever medicamentos, encaminhar pacientes para especialistas
+adequados e tratar doenças que não necessitam de intervenções cirúrgicas.
+                       </p>
+                       <div class="button-1">
+                        <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
+                            Agendar Consulta
+                        </a>
+                    </div>
+                    <a href="clinica-geral.html" class="ver">
+                        saiba mais
+                    </a>
                     </div>
                     <div class="p-item">
                         <img src="images/dermatologia.jpg" alt="">
                         <h3>
                              Dermatologia                       
                         </h3>
+                        <p>
+                            EEspecialista responsável pelo diagnóstico, tratamento e prevenção de doenças
+                            da pele, pelos, cabelos e unhas. Assim como tratar de doenças nas mucosas,
+                            como afecções na boca, lábios, gengiva, língua e também na área genital,
+                            como no caso das doenças sexualmente transmissíveis (dst) ou doenças
+                            venéreas.
+                        </p>
                             <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="derma.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/endoctinologia.jpg" alt="">
                         <h3>
                             Endocrinologia
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        É a especialidade médica que cuida do funcionamento das glândulas e das
+                        doenças que as afetam, na produção dos hormônios e suas alterações.
+                       </p>
+                        <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="endo.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/fisioterapia.jpg" alt="">
                         <h3>
                             Fisioterapia
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        Essa especialidade atua na prevenção e na reabilitação da capacidade física e
+                        funcional das pessoas. O fisioterapeuta aplica terapias para tratar as doenças e
+                        lesões, empregando técnicas como massagens e ginástica.
+                       </p>
+                            <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="fisio.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/gastro.jpeg" alt="">
                         <h3>
                             Gastrologia
                        </h3>
+                       <p>
+                        Especialista responsável por tratar anatomia, fisiologia (funcionamento) e as
+                        doenças do aparelho digestivo, visando a manutenção de sua saúde, assim
+                        como o diagnóstico
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="gastro.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/gineco.jpeg" alt="">
                         <h3>
                            Ginecologia
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        Especialidade que atua diretamente com a saúde do aparelho reprodutor
+                        feminino (vagina, útero e ovários) e mamas.
+                       </p>
+                                <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="gine.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/neurolgia.jpeg" alt="">
                         <h3>
                             Neurologia
                        </h3>
+                       <p>
+                        É a especialidade médica que trata dos distúrbios estruturais do sistema
+                        nervoso. Além de uma série de diagnósticos primariamente neurológicos, a
+                        neurologia se integra com inúmeras outras especialidades, como: psiquiatria;
+                        endocrinologia; otorrinolaringologia, cardiologia; reumatologia; hematologia;
+                        dermatologia, oftalmologia, etc.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="neu.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/nutricao.jpeg" alt="">
                         <h3>
                             Nutricionista
                        </h3>
+                       <p>
+                        É o profissional especializado a realizar o diagnóstico e tratamentos das
+                        doenças nutricionais desenvolvendo planos alimentares para cada paciente.
+                        proporcionando qualidade de vida, vida saudável, e a consciência a respeito
+                        daquilo que comemos.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="nutri.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/oftalmologista-para-criancas.jpg" alt="">
                         <h3>
                             Oftamologista
                        </h3>
+                       <p>Especialidade responsável por cuidar das doenças relacionadas a visão por
+                        meio dos testes visuais, as mais comuns são a miopia, hipermetropia e
+                        astigmatismo. O recomendado é realizar o exame de vista pelo menos uma vez
+                        por ano, independentemente de quem usa óculos ou não.</p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="ofta.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/otorrino.jpeg" alt="">
                         <h3>
-                            Otorrino
+                            Otorrinolaringologia
                        </h3>
+                       <p>
+                        A Otorrinolaringologia é a área médica que trata as doenças relacionadas aos
+                        ouvidos, ao nariz, a garganta (faringe e laringe) e aos seios da face por meio
+                        de tratamentos ou até intervenções cirúrgicas.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="oto.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/orto.jpeg" alt="">
                         <h3>
                             Ortopedista
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        É a especialidade médica responsável para tratar, corrigir enfermidades, lesões
+                        e deformidades ósseas, dos músculos, dos tendões, articulações e ligamentos,                     
+                        e tudo o que relacionasse ao aparelho locomotor, ao sistema esquelético e
+                        estruturas associadas.
+                       </p>
+                        <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="ped.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/nova-puericultura-pediatria.jpg" alt="">
                         <h3>
                             Pediatra
                        </h3>
+                       <p>
+                        Especialista responsável em avaliar e cuidar do desenvolvimento e da saúde
+                        da criança e adolescente,é ele que orienta os pais sobre a formação física,
+                        biológica e mental, informa sobre as necessidades de cada fase e assim
+                        consequentemente ajuda na prevenção de doenças e também no tratamento
+                        caso surjam
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="pediatra.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/proctologia.jpeg" alt="">
                         <h3>
                             Proctologista
                        </h3>
+                       <p>
+                        É a especialidade médica que trata as doenças que atacam a parte final do
+                        sistema gastrointestinal, que inclui o cólon (intestino grosso), o reto e o ânus.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="proc.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/patologia-6.png" alt="">
                         <h3>
                             Pneumologista
                        </h3>
+                       <p>
+                        Especialista responsável por previnir, diagnosticar e tratar doenças pulmonares
+                        e respiratórias de diversas origens, incluindo:
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="cardio.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/psico.jpeg" alt="">
                         <h3>
                            Psicológico
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        Especialidade responsável por ajudar através da ciência as pessoas a se
+                        autoconhecerem, a melhorar características com as quais elas não estão
+                        satisfeitas e a promover seu bem-estar emocional. Através de atendimentos
+individuais ou em grupo, seja para realizar avaliações psicológicas ou promover
+um plano terapêutico em sessões (terapia).
+                       </p>
+                       <p>
+                        O trabalho do psicólogo é feito por meio da escuta ativa e do diálogo, e ele não
+                        prescreve medicamentos.
+                       </p>
+                        <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="psi.html" class="ver">
+                            ver mais
+                        </a>
                     </div>
                     <div class="p-item">
+                      
                         <img src="images/psiquiatria.jpeg" alt="">
                         <h3>
                             Psiquiatra
                        </h3>
-                                                   <div class="button-1">
+                       <p>
+                        É a especialidade médica que previne, diagnostica e trata das diferentes
+formas de distúrbios mentais, sejam elas de caráter, funcional ou
+comportamental, que levam o paciente ao sofrimento metal, inadequação e
+incapacidade social., seja ele causado por desequilíbrios orgânicos ou
+funcionais.
+                       </p>
+                        <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="psi.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
+                    
                         <img src="images/urologista.jpg" alt="">
                         <h3>
                             Urologista
                        </h3>
+                       <p>
+                        A especialidade que trata as doenças que afetam o sistema urinário de
+                        homens e mulheres e aquelas que afetam o sistema reprodutor masculino.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="Urologista.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/vascular.jpeg" alt="">
                         <h3>
                             Vascular
                        </h3>
+                       <p>
+                        Especialista que trata os vasos sanguíneos, sistema linfático, artérias e veias.
+                        Englobando doenças como aneurismas de aorta e aterosclerose e também dos
+                        conhecidos problemas nas veias como os vasinhos, varizes e trombose.
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="Vascular.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                     <div class="p-item">
                         <img src="images/reumatologia.jpeg" alt="">
                         <h3>
                             Reumatologista
                        </h3>
+                       <p>
+                        É a especialidade responsável por diagnosticar e tratar as doenças que
+                        atingem os ossos, colágeno e articulações, as mais conhecidas são as
+                        doenças reumáticas ou reumatismos, as autoimunes, como Lupos
+                       </p>
                                                    <div class="button-1">
                             <a href="https://api.whatsapp.com/send?phone=5543999180210&text=Gostaria%20de%20agendar%20uma%20consulta!">
                                 Agendar Consulta
                             </a>
                         </div>
+                        <a href="Reumatologista.html" class="ver">
+                            saiba mais
+                        </a>
                     </div>
                 </div>
          </div>
@@ -350,27 +500,95 @@
                 </div>
             </div>
         </div>
+        <div class="sobre">
+            <div class="sobrebx">
+                <div class="sobre-item">
+                    <h1>
+                        VOCÊ CONHECE A ATEND JÁ CAMBÉ?
+                    </h1>
+                    <P>
+                        Somos uma franquia de clinica medica, especializada em consultas e exames
+médicos, com atendimento de <b>qualidade acessível</b> para todos sem
+mensalidades.
+                    </P>
+                    <p>
+                        Oferecemos atendimento em mais de <b>18 especialidades,</b> dando acesso a
+serviços médicos, exames laboratoriais e de imagem, com profissionais
+capacitados, consultórios próprios e climatizados, atendimento humanizado
+com respeito e agilidade, tudo para sua maior comodidade.
+                    </p>
+                </div>
+                <div class="sobre-item">
+                    <img src="3.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="p7">
+            <h1>
+              DEPOIMENTOS
+            </h1>
+              <div class="slider-p7">
+                  <div class="slideshow-7">
+                      <img src="d1.jpeg" alt="">
+                  </div>
+                  <div class="slideshow-7">
+                  <img src="d2.jpeg" alt="">
+                   </div> 
+                  <div class="slideshow-7">
+                      <img src="d3.jpeg" alt="">
+                  </div>
+                  <div class="slideshow-7">
+                      <img src="d4.jpeg" alt="">
+                  </div>
+                  <div class="slideshow-7">
+                  <img src="d5.jpeg" alt="">
+                   </div> 
+                  <div class="slideshow-7">
+                      <img src="d6.jpeg" alt="">
+                  </div>
+              </div>
+          </div>
         <div class="p3">
             <h1>Vantagens</h1>
             <div class="p3-box">
                 <div class="p3-item">
-                    <img src="5.png" alt="">
+                    <img src="5.svg" alt="">
                     <h3>Profissionais Especializados</h3>
                 </div>
                 <div class="p3-item">
-                    <img src="6.png" alt="">
+                    <img src="6.svg" alt="">
                     <h3>Estrutura Adequada</h3>
                 </div>
                 <div class="p3-item">
-                    <img src="8.png" alt="">
+                    <img src="7.svg" alt="">
                     <h3>Qualidade no Atendimento</h3>
                 </div>
                 <div class="p3-item">
-                    <img src="7.png" alt="">
+                    <img src="8.svg" alt="">
                     <h3>Localizacao Privilegiada</h3>
                 </div>
             </div>
         </div>
+        <div class="p7">
+            <h1>
+                Convênios
+            </h1>
+              <div class="slider-p8">
+                  <div class="slideshow-7">
+                      <img src="l1.jpeg" alt="">
+                  </div>
+                  <div class="slideshow-7">
+                  <img src="l2.jpeg" alt="">
+                   </div> 
+                  <div class="slideshow-7">
+                      <img src="l3.jpeg" alt="">
+                  </div>
+                  <div class="slideshow-7">
+                      <img src="l4.jpeg" alt="">
+                  </div>
+              </div>
+          </div>
+
         <div id="contato" class="p4">
             <div class="logo">
                 <img src="logo.png" alt="">
@@ -381,18 +599,25 @@
                     <img src="phone-white.png" alt="">
                     <p>Contato: 43-30351635 /
                         43-999180210 </p>
+                        <p>
+
+                            Atendimento <br>
+                            Segunda a sexta das 8:00 às 18:00 <br>
+                            Sábados 8:00 às 12:00
+                        </p>  
+                        <p>
+                            Responsável Técnico: DR º Marcos Sorgi Macedo CRM: 10710
+                        </p> 
                 </div>
                 <div class="p4-item">
                     <img src="location-white.png" alt="">
-                    <p>Rua França 538, Centro Cambe</p>
+                    <p>Rua França 538, Centro Cambe</p>  
+                    <div class="iframe-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3665.023476577975!2d-51.27858921872616!3d-23.27859665147876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94eb59ef2957da13%3A0x8389c5f438b9db86!2sR.%20Fran%C3%A7a%2C%20538%20-%20Centro%2C%20Camb%C3%A9%20-%20PR%2C%2086181-040!5e0!3m2!1spt-BR!2sbr!4v1611940625504!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                                        </div>      
                 </div>
                 <div class="p4-item">
-                   <p>
-
-                       Atendimento <br>
-                       Segunda a sexta das 8:00 às 18:00 <br>
-                       Sábados 8:00 às 12:00
-                   </p>
+               
                 </div>
             </div>
             <div class="whatsapp">
@@ -400,11 +625,137 @@
                 </a>
             </div>
         </div>
+     
     </main>
     <footer>
         <p><a href="https://www.instagram.com/emanoelsalmeida/">Desenvolvido por Agência Humans</a></p>
     </footer>
-    <script type="text/javascript" src=""></script>
+   
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+    $('.slider').slick({
+  arrows:false,
+    dots: false,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 3,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+    </script>
+     <script type="text/javascript">
+        $('.slider-p7').slick({
+      arrows:true,
+        dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+    
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+    </script>
+     <script type="text/javascript">
+        $('.slider-p8').slick({
+      arrows:true,
+        dots: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 4,
+      slidesToScroll: 1,
+      autoplay: true,
+      responsive: [
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 3,
+            infinite: true,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+    
+        // You can unslick at a given breakpoint now by adding:
+        // settings: "unslick"
+        // instead of a settings object
+      ]
+    });
+        </script>
+
+
+
 </body>
 
 </html>
