@@ -286,6 +286,15 @@ footer p a{
 
 
 @media screen and (max-width:900px){
+    header ul li {
+        display: inline-block;
+        padding: .2em;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+
+
+
     .pag-slide{
         width: 100vw;height: auto;
     }
