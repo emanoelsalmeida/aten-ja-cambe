@@ -302,7 +302,7 @@ footer p a{
     header ul li a{
         text-decoration: none;
         color: white;
-        font-size: 1.5em;
+        font-size: .8em;
     }
     .slideshow img, .slideshow-7 img{width: 100%;height: auto;display: block;margin: 0 auto;}
 
