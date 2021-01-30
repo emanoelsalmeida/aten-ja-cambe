@@ -50,7 +50,8 @@ header ul li:first-child a,header ul li a:hover{
 
 
 .slider, .slider-p7{width: 100%;display: block;margin: 1em auto;}
-.slideshow img, .slideshow-7 img{width: 100%;height: 100vh;display: block;margin: 0 auto;}
+.slider{width: 80%;}
+.slideshow img, .slideshow-7 img{width: 100%;height: auto;display: bloc;margin: 0 auto;}
 .slick-prev:before,
 .slick-next:before{color: #30ae69;}
 
@@ -85,7 +86,7 @@ color:#30ae69
     display: block;
     margin: 0 auto;
     width: 100%;
-    height: 40vh;
+    height: auto;
     border-radius: .5em;
 }
 
@@ -272,7 +273,6 @@ footer p a{
 .esp-item h3{color: #ffffff;font-weight: 700;text-transform: initial;font-size: 1rem;display: block;margin: 2vh auto;text-align: center;}
 .esp-item p{font-size: .8rem;color: #ffffff;}
 
-
 .consulta{display: flex;justify-content: center;align-items: center;flex-direction: column;padding: 4em 1em 2em;}
 .consultabx{display: grid;grid-template-columns: 60% 40%;width: 80%;background-color:  #30ae69;color: #fff;padding: 2em;
     border-radius: .5em;}
@@ -304,10 +304,18 @@ footer p a{
         color: white;
         font-size: 1.5em;
     }
+    .slideshow img, .slideshow-7 img{width: 100%;height: auto;display: block;margin: 0 auto;}
+
     .p1-box, .p2-box, .p3-box, .p4-box{
         grid-template-columns: 80%;
     }
-
+    .p-item img{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+        height: auto;
+        border-radius: .5em;
+    }
     .p2-item img{width: 80vw;}
     .sobrebx{flex-direction: column;width: 90%;}
     .sobre-item:nth-child(1){width: 100%;}
