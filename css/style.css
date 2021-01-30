@@ -288,7 +288,7 @@ footer p a{
 @media screen and (max-width:900px){
     header ul li {
         display: inline-block;
-        padding: .2em;
+        padding: .5em;
         font-family: 'Montserrat', sans-serif;
         color: white;
     }
@@ -296,7 +296,8 @@ footer p a{
 
 
     .pag-slide{
-        width: 100vw;height: auto;
+        padding: 15em 0 0;
+        width: 100%;height: auto;
     }
     header{
         position: fixed;
@@ -313,6 +314,8 @@ footer p a{
         color: white;
         font-size: .8em;
     }
+    .pslide{padding: 5em  0 0;}
+    .slider{width: 100%;}
     .slideshow img, .slideshow-7 img{width: 100%;height: auto;display: block;margin: 0 auto;}
     .p-item:hover{border:none;border-radius: 0em;}
 
