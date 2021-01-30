@@ -30,7 +30,7 @@ header ul {
 }
 header ul li {
      display: inline-block;
-     margin:10px 15px 10px 15px;
+     padding: .5em;
      font-family: 'Montserrat', sans-serif;
      color: white;
  }
@@ -125,7 +125,7 @@ color:#30ae69
 
 }
 
-.p2{padding: 2em 1em;}
+.p2{padding: 2em 1em;background-color: #e5e5e5;margin: 2em 0 0;}
 .p2 h1{
     text-align: center;
     margin: 1em 0;
@@ -305,6 +305,7 @@ footer p a{
         font-size: .8em;
     }
     .slideshow img, .slideshow-7 img{width: 100%;height: auto;display: block;margin: 0 auto;}
+    .p-item:hover{border:none;border-radius: 0em;}
 
     .p1-box, .p2-box, .p3-box, .p4-box{
         grid-template-columns: 80%;
